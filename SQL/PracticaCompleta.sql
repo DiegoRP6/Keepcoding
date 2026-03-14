@@ -303,6 +303,8 @@ Representa gráficamente la distribución de estados por país. Puedes dibujar u
 barras o representarlo como creas que mejor se visualiza.
 */
 
+/*Imagen adjuntada en el repositorio aparte*/
+
 /*  
 --------------------------------------------------------------------
                               ENUNCIADO 9 
