@@ -128,21 +128,6 @@ else:
 print("Mejor modelo:", mejor_modelo)
 
 # -----------------------  5.  Conclusión: escrita, no numérica; un par de líneas es más que suficiente.
-# Conclusión final (comentada y en lenguaje simple):
-# 1) Se trabajo con los datos limpios de Price y se hizo la division train/test desde el inicio.
-# 2) Se detectaron outliers en Price con IQR.
-# 3) Se eliminaron columnas con muchos nulos y se creo una variable sencilla.
-# 4) Se compararon dos modelos basicos con MAE y RMSE.
-# 5) El mejor modelo final es el que tiene menor RMSE.
-
-print("CONCLUSION")
-print("Filas utiles finales:", len(df))
-print("Outliers en Price:", len(outliers))
-print("Train final:", X_train.shape)
-print("Test final:", X_test.shape)
-print("Modelo 1 -> MAE:", round(mae1, 2), "RMSE:", round(rmse1, 2))
-print("Modelo 2 -> MAE:", round(mae2, 2), "RMSE:", round(rmse2, 2))
-print("Mejor modelo final:", mejor_modelo)
 
 """
 Conclusión: El dataset tiene mezcla de variables numéricas y de texto, y después del preprocesamiento se eliminaron 9 columnas con muchos nulos, quedando un tamaño de train y test adecuado para modelar.
