@@ -34,7 +34,6 @@ print("Tamaño test: ", X_test.shape)
 # ------------- Paso 2: Analisis exploratorio
 
 # a. Head, describe, dtypes
-# Veo las primeras filas, los tipos de cada columna y un resumen estadistico basico
 print(df.head())
 print(df.dtypes)
 print(df.describe())
@@ -61,7 +60,6 @@ print(correlacion)
 # -----------------------  3.  Preprocesamiento: 
 # a. Eliminacion de variables
 # Voy a quitar columnas con muchos valores nulos porque aportan poca informacion
-# No uso metodos mas avanzados porque quiero hacerlo de forma simple
 porcentaje_nulos = X_train.isnull().mean()
 columnas_eliminar = porcentaje_nulos[porcentaje_nulos > 0.5].index
 
