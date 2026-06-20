@@ -1,0 +1,23 @@
+artifact_path: file:///c:/Users/Usuario/Desktop/KEEPCODING/Keepcoding/mlops-llmops/practica/mlruns/1/models/m-34e733ef736f454ebb696bbcf559ea5f/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.0
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.13.0
+model_id: m-34e733ef736f454ebb696bbcf559ea5f
+model_size_bytes: 34284
+model_uuid: m-34e733ef736f454ebb696bbcf559ea5f
+prompts: null
+run_id: 77dbc98edd774cc0b050d4eaf409589d
+utc_time_created: '2026-06-20 17:20:05.651410'
