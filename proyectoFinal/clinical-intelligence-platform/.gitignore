@@ -1,0 +1,47 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+
+# ---- Node / Frontend ----
+node_modules/
+dist/
+dist-ssr/
+*.local
+.vite/
+*.tsbuildinfo
+
+# ---- Docker ----
+docker-compose.override.yml
+
+# ---- Environment variables ----
+.env
+.env.*
+!.env.example
+
+# ---- IDE / VSCode ----
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# ---- OS / temporary files ----
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+
+# ---- Salida de entrenamiento (si se ejecuta training/ModeloLLMFinetuneado.py) ----
+training/modelo_soap_qwen_lora/
